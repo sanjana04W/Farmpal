@@ -18,4 +18,72 @@ By replacing traditional notebook-based record keeping with a digital platform, 
 * **Cloud Backup** – Secure data storage and synchronization using Firebase
 * **Simple Mobile Interface** – Designed for easy use by small and medium-scale farmers
 
----# Farmpal
+---
+
+# 📊 Core System Capabilities
+
+### 📈 Farm Analytics
+
+* Track production trends
+* Monitor feed efficiency
+* Analyze operational costs
+* Generate farm performance reports
+
+### 📱 Mobile-first Design
+
+* Built specifically for smartphone usage
+* Simplified data entry forms
+* User-friendly interface for farmers
+
+### ☁️ Cloud Data Management
+
+* Secure cloud backup
+* Real-time data synchronization
+* Offline storage with later sync
+
+---
+
+# 🏗️ Architecture
+
+## Project Structure
+
+```
+farm-pal/
+│
+├── src/
+│   │
+│   ├── screens/
+│   │   ├── DashboardScreen.js
+│   │   ├── EggProductionScreen.js
+│   │   ├── FeedTrackingScreen.js
+│   │   ├── ExpenseManagementScreen.js
+│   │   ├── ReportsScreen.js
+│   │   └── ProfileScreen.js
+│   │
+│   ├── components/
+│   │   ├── EggCard.js
+│   │   ├── FeedCard.js
+│   │   ├── ExpenseCard.js
+│   │   └── ChartComponent.js
+│   │
+│   ├── services/
+│   │   ├── firebaseService.js
+│   │   ├── authService.js
+│   │   └── dataService.js
+│   │
+│   ├── database/
+│   │   └── localStorage.js
+│   │
+│   ├── navigation/
+│   │   └── AppNavigator.js
+│   │
+│   └── App.js
+│
+├── assets/
+│
+├── package.json
+│
+└── README.md
+```
+
+---
