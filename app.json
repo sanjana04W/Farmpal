@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "FarmPal",
+    "slug": "FarmPal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5E6CC"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.farmpal.app"
+    },
+    "android": {
+      "package": "com.farmpal.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F5E6CC"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "farmpal-app"
+      }
+    }
+  }
+}
