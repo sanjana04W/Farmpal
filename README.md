@@ -263,3 +263,11 @@ By combining **mobile accessibility, automated reporting, offline storage, and c
 ### 🎥 Project Demo
 
 [https://tinyurl.com/3a26b944](https://tinyurl.com/3a26b944) 
+
+### 📂 GitHub Repository
+
+[https://github.com/pmuwimukimukthi/farmpal.git](https://github.com/pmuwimukthi/farmpal.git) 
+
+### 🎨 Figma Prototype
+
+[https://www.figma.com/proto/kObdTSHKOE3Ez80GguQpvG/Farm-pal](https://www.figma.com/design/eT4d3NcHwmumIbEf13elmY/Farm-Pal?node-id=0-1&t=7gE7o7Q8Xi6pY7bX-1) 
