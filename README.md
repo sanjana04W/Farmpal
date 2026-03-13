@@ -87,3 +87,56 @@ farm-pal/
 ```
 
 ---
+# ⚙️ Technology Stack
+
+### Mobile Application
+
+* **Framework:** React Native
+* **Language:** JavaScript
+
+### Backend 
+* **Database:** Firebase SQLite
+* **Authentication:** Firebase Authentication
+
+### Local Storage
+
+* **SQLite / AsyncStorage** for offline data storage
+
+### Development Tools
+
+* **IDE:** Visual Studio Code
+* **Version Control:** GitHub
+* **UI Design:** Figma
+* **Project Management:** Asana Board
+* **Package Manager:** npm
+
+These technologies allow FarmPal to deliver a **scalable, mobile-first solution with both offline capability and cloud synchronization.** 
+
+---
+
+# 📱 System Architecture
+
+FarmPal uses a **mobile-first architecture** that combines:
+
+```
+User (Farmer)
+      │
+      ▼
+React Native Mobile Application
+      │
+      ▼
+Firebase Services
+ ├── Firestore Database
+ ├── Authentication
+      │
+      ▼
+Local Storage (SQLite / AsyncStorage)
+```
+
+This architecture ensures:
+
+* **Offline functionality**
+* **Secure cloud backup**
+* **Real-time data management**
+
+---
