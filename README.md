@@ -140,3 +140,126 @@ This architecture ensures:
 * **Real-time data management**
 
 ---
+# 🎯 System Objectives
+
+The main objectives of FarmPal include:
+
+* **Centralize** – Provide a single platform to manage feed tracking, egg production, and expenses.
+* **Empower Farmers** – Enable farmers to make better decisions using automated reports and analytics. 
+
+---
+
+# 🚀 Installation & Setup
+
+## Prerequisites
+
+* Node.js (v16 or later)
+* npm
+* React Native CLI
+* Android Studio / Emulator
+
+---
+
+## Step 1 – Clone Repository
+
+```bash
+git clone https://github.com/your-repo/farmpal.git
+cd farmpal
+```
+
+---
+
+## Step 2 – Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## Step 3 – Configure Firebase
+
+1. Create a Firebase project
+2. Enable:
+
+   * Authentication
+   * Firestore Database
+3. Add Firebase configuration to your project.
+
+Example:
+
+```javascript
+const firebaseConfig = {
+  apiKey: "API_KEY",
+  authDomain: "project.firebaseapp.com",
+  projectId: "project_id",
+  storageBucket: "project.appspot.com",
+  messagingSenderId: "sender_id",
+  appId: "app_id"
+};
+```
+
+---
+
+## Step 4 – Run Application
+
+```bash
+npx expo start
+```
+
+
+---
+
+# 🧪 Testing
+
+FarmPal testing includes:
+
+### Functional Testing
+
+* Egg production recording
+* Feed usage tracking
+* Expense logging
+* Report generation
+
+### Test Case Document
+
+Project test cases and results:
+
+[https://docs.google.com/spreadsheets/d/1S_iI2xbP3yFPVPytPlIOAQ9zm1Yipz6-uVtAJVUUS0A/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1S_iI2xbP3yFPVPytPlIOAQ9zm1Yipz6-uVtAJVUUS0A/edit?usp=sharing) 
+
+---
+
+# ⚠️ Project Limitations
+
+* Requires access to a **smartphone or smart device**
+* **Poor internet connectivity** may affect cloud synchronization
+* Farmers may require **basic digital literacy**
+* Some traditional farmers may **resist adopting digital systems** initially 
+
+---
+
+# 📈 Future Improvements
+
+Possible future enhancements include:
+
+* AI-based production predictions
+* IoT sensors for real-time farm monitoring
+* Advanced analytics dashboards
+* Multi-language support
+* Integration with smart poultry equipment
+
+---
+
+# 📌 Conclusion
+
+FarmPal provides a **simple yet powerful digital platform for poultry farm management**, enabling farmers to track production, manage expenses, and analyze farm performance more efficiently.
+
+By combining **mobile accessibility, automated reporting, offline storage, and cloud backup**, the system addresses key limitations of traditional farm record keeping and helps farmers make **data-driven decisions to improve productivity and profitability.** 
+
+---
+
+# 🔗 Project Links
+
+### 🎥 Project Demo
+
+[https://tinyurl.com/3a26b944](https://tinyurl.com/3a26b944) 
